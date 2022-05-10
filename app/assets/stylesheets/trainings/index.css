@@ -1,0 +1,125 @@
+/* リセットCSS */
+body {
+}
+
+/* ヘッダー */
+
+.header {
+  background-color: #1a1d21;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-image: repeating-conic-gradient(red,black 15%);
+}
+
+.title-name {
+  color: #eeeeee;
+  border: 35px solid repeating-conic-gradient(red,black 15%);
+  font-weight: 500;
+  font-size: 35px;
+}
+
+/* メイン */
+
+.wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('pitch.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center; 
+
+}
+
+.game_image {
+  background-image: url('black.png');
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.game{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tr_image {
+  background-image: url('red.png');
+  background-size: 180px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tr {
+  color: blue;
+  text-decoration: none;
+  user-select: none;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.skd_image {
+  background-image: url('blue.png');
+  background-size: 180px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skd {
+  color: black;
+  text-decoration: none;
+  user-select: none;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.intro_image {
+  background-image: url('green.png');
+  background-size: 180px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro {
+  color: orange;
+  text-decoration: none;
+  user-select: none;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.set_image {
+  background-image: url('pink.png');
+  background-size: 180px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.set {
+  color: green;
+  text-decoration: none;
+  user-select: none;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+/* フッター */
