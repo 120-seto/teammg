@@ -9,12 +9,12 @@ body {
   height: 10vh;
   display: flex;
   align-items: center;
-  background-image: repeating-conic-gradient(red,black 15%);
+  background-image: repeating-conic-gradient(green,black 15%);
 }
 
 .title-name {
   color: #eeeeee;
-  border: 35px solid repeating-conic-gradient(red,black 15%);
+  border: 35px solid repeating-conic-gradient(green,black 15%);
   font-weight: 500;
   font-size: 35px;
 }
