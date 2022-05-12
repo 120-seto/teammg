@@ -4,7 +4,11 @@ class TrainingsController < ApplicationController
   def new
   end
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 
   def create
     Training.create(training_params)
@@ -18,5 +22,11 @@ class TrainingsController < ApplicationController
     params.require(:training).permit(:all, :fw, :mf, :df, :gk, :list, :image).merge(user_id: current_user.id)
   end
 
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 end
