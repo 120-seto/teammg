@@ -8,11 +8,12 @@ class TrainingsController < ApplicationController
   end
 
   def create
-    @trainings = Training.create(training_params)
+    Training.create(training_params)
   end
   
   def show
   end
+  
   private
 
   def training_params
