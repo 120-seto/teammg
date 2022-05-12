@@ -1,0 +1,67 @@
+.tr-show {
+  height: 90vh;
+  background-image: repeating-conic-gradient(white,black 15%);
+
+}
+
+.menu {
+  font-weight: 800;
+  color: yellow;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tr-all{
+
+}
+.all{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tr-fw{
+}
+.fw{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tr-mf{
+}
+.mf{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tr-df{
+}
+.df{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tr-gk{
+}
+.gk{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.tr-list{
+}
+.list{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
