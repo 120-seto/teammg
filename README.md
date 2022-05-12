@@ -15,7 +15,7 @@ https://docs.google.com/spreadsheets/d/1aalgCf8iyEB6yalIQHK8djRP29QsJxZjDRiMJGzs
 # 実装した機能についての画像やGIF及び説明
 # 実装予定の機能
 # データベース設計
-[![Image from Gyazo](https://i.gyazo.com/3bd1931cd7656d9072290340b587ba3a.png)](https://gyazo.com/3bd1931cd7656d9072290340b587ba3a)
+[![Image from Gyazo](https://i.gyazo.com/a75f6e26681d850d1e4237414bb7a882.png)](https://gyazo.com/a75f6e26681d850d1e4237414bb7a882)
 # 画面遷移図
 [![Image from Gyazo](https://i.gyazo.com/6a49d6b2ab99520d472d7c0793fcf2bc.png)](https://gyazo.com/6a49d6b2ab99520d472d7c0793fcf2bc)
 # 開発環境
