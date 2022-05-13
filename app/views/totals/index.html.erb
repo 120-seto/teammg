@@ -1,0 +1,8 @@
+<div class="contents row">
+  <% @totals.each do |total| %>
+      <p><%= total.text %></p>
+      <span class="name">
+        <%= total.name %>
+      </span>
+  <% end %>
+</div>
