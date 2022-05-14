@@ -8,5 +8,5 @@
         </span>
     <% end %>
   </div>
-  <%= image_tag message.image.variant(resize: '500x500'), class: 'total-image' %>
+  <%= image_tag total.image.variant(resize: '500x500'), class: 'total-image' if total.image.attached? %>
  </div>
