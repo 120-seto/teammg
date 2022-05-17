@@ -8,5 +8,7 @@
         </span>
     <% end %>
   </div>
+  <%#= image_tag @totals %>
+  <%#= image_tag total.image, class: 'total-image' %>
   <%= image_tag total.image.variant(resize: '500x500'), class: 'total-image' if total.image.attached? %>
  </div>
