@@ -11,18 +11,14 @@
   font-size: 20px;
 }
 
-.tr-all{
-
-}
-.all{
+.total{
   font-weight: 800;
   color: red;
   text-decoration: none;
   font-size: 20px;
 }
 
-.tr-fw{
-}
+
 .fw{
   font-weight: 800;
   color: red;
@@ -30,8 +26,6 @@
   font-size: 20px;
 }
 
-.tr-mf{
-}
 .mf{
   font-weight: 800;
   color: red;
@@ -39,8 +33,6 @@
   font-size: 20px;
 }
 
-.tr-df{
-}
 .df{
   font-weight: 800;
   color: red;
@@ -48,8 +40,6 @@
   font-size: 20px;
 }
 
-.tr-gk{
-}
 .gk{
   font-weight: 800;
   color: red;
@@ -57,8 +47,6 @@
   font-size: 20px;
 }
 
-.tr-list{
-}
 .list{
   font-weight: 800;
   color: red;

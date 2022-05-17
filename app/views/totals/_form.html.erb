@@ -1,0 +1,17 @@
+<%= form_with(model: @total, local: true) do |f| %> 
+  <div class="field">
+    <%= f.label :total_title, "全体練習の名前" %><br />
+    <%= f.text_field :total_title, id:"total_title" %>
+  </div>
+  <div class="field">
+    <%= f.label :total_text, "全体練習の説明" %><br />
+    <%= f.text_area :total_text, class: :form__text, id:"total_catch_copy" %>
+  </div>
+  <div class="field">
+    <%= f.label :image, "全体練習の画像" %><br />
+    <%= f.file_field :image, id:"total_image" %>
+  </div>
+  <div class="actions">
+    <%= f.submit "投稿する", class: :form__btn  %>
+  </div>
+<% end %>

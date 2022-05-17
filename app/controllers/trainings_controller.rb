@@ -17,7 +17,7 @@ class TrainingsController < ApplicationController
   private
 
   def training_params
-    params.require(:training).permit(:all, :fw, :mf, :df, :gk, :list, :image).merge(user_id: current_user.id)
+    params.require(:training).permit(:total, :fw, :mf, :df, :gk, :list, :image).merge(user_id: current_user.id)
   end
 
 end
