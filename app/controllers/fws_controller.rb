@@ -1,6 +1,6 @@
 class FwsController < ApplicationController
   def index
-    @Fws = FW.all.order(created_at: :desc)
+    @fws = FW.all.order(created_at: :desc)
   end
 
   def new
