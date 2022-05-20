@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :trainings
   resources :totals
   resources :fws
+  resources :dfs
 end
