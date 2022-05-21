@@ -1,0 +1,12 @@
+<%= render "shared/header" %>
+ <div class="gk-new"><%= link_to "GK練習投稿", new_gk_path, class: "gk" %></div>
+  <div class="contents row">
+    <% @gks.each do |gk| %>
+        <p><%= gk.text %></p>
+        <span class="name">
+          <%= gk.name %>
+        </span>
+    <% end %>
+  </div>
+  <%#= image_tag gk.image.variant(resize: '500x500'), class: 'gk-image' if gk.image.attached? %>
+ </div>
