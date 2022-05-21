@@ -26,7 +26,7 @@ class DfsController < ApplicationController
 
   private
 
-  def training_params
+  def df_params
     params.require(:df).permit(:df_title, :df_text, :df_date, :image).merge(user_id: current_user.id)
   end
 end

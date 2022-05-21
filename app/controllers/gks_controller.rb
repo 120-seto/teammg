@@ -26,7 +26,7 @@ class GksController < ApplicationController
 
   private
 
-  def training_params
+  def gk_params
     params.require(:gk).permit(:gk_title, :gk_text, :gk_date, :image).merge(user_id: current_user.id)
   end
 end

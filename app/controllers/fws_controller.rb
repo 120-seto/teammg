@@ -26,7 +26,7 @@ class FwsController < ApplicationController
 
   private
 
-  def training_params
+  def fw_params
     params.require(:fw).permit(:fw_title, :fw_text, :fw_date, :image).merge(user_id: current_user.id)
   end
 end
