@@ -1,0 +1,17 @@
+<%= form_with(model: @gk, local: true) do |f| %> 
+  <div class="field">
+    <%= f.label :gk_title, "GK練習の名前" %><br />
+    <%= f.text_field :gk_title, id:"gk_title" %>
+  </div>
+  <div class="field">
+    <%= f.label :gk_text, "GK練習の説明" %><br />
+    <%= f.text_area :gk_text, class: :form__text, id:"gk_catch_copy" %>
+  </div>
+  <div class="field">
+    <%= f.label :image, "GK練習の画像" %><br />
+    <%= f.file_field :image, id:"gk_image" %>
+  </div>
+  <div class="actions">
+    <%= f.submit "投稿する", class: :form__btn  %>
+  </div>
+<% end %>
