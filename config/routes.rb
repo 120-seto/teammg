@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   resources :fws
   resources :dfs
   resources :gks
+  resources :lists
 end
