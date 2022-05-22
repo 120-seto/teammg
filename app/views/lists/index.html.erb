@@ -1,0 +1,13 @@
+<%= render "shared/header" %>
+ <div class="list-new"> <h1>練習メニュー</h1></div>
+  <div class="contents row">
+    <% @lists.each do |list| %>
+        <p><%= list.text %></p>
+        <span class="name">
+          <%= list.name %>
+        </span>
+    <% end %>
+         <%= render "shared/trs" %>
+  </div>
+  <%#= image_tag list.image.variant(resize: '500x500'), class: 'list-image' if list.image.attached? %>
+ </div>
