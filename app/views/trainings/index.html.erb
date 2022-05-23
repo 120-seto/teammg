@@ -3,7 +3,7 @@
   <div class="inner">
   <div class="wrapper">
      <div class="game-image"><%= link_to "試合結果", "#", class: "game" %></div>
-     <div class="tr-image"><%= link_to "練習メニュー", training_path(@trainings), method: :get, class: "tr" %></div>
+     <div class="tr-image"><%= link_to "練習メニュー", training_path(@trainings), method: :get, id:"tr-menus",class: "tr" %></div>
      <div class="skd-image"><%= link_to "スケジュール", "#", class: "skd" %></div>
      <div class="intro-image"><%= link_to "チーム紹介", "#", class: "intro" %></div>
      <div class="set-image"><%= link_to "設定", "#", class: "set" %></div>
