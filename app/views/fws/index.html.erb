@@ -1,0 +1,13 @@
+<%= render "shared/header" %>
+ <div class="fw-new"><%= link_to "攻撃練習投稿", new_fw_path, class: "fw" %></div>
+  <div class="contents row">
+    <% @fws.each do |fw| %>
+        <p><%= fw.text %></p>
+        <span class="name">
+          <%= fw.name %>
+        </span>
+    <% end %>
+         <%= render "shared/trs" %>
+  </div>
+  <%#= image_tag fw.image.variant(resize: '500x500'), class: 'fw-image' if fw.image.attached? %>
+ </div>

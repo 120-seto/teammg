@@ -39,7 +39,7 @@ https://docs.google.com/spreadsheets/d/1aalgCf8iyEB6yalIQHK8djRP29QsJxZjDRiMJGzs
 # 画面遷移図
 [![Image from Gyazo](https://i.gyazo.com/62b244cbb0ec963b9b2e6f922866b200.png)](https://gyazo.com/62b244cbb0ec963b9b2e6f922866b200)
 # 開発環境
-・フロントエンド（HTML・CSS）  
+・フロントエンド（HTML・CSS・JavaScript・JQuery）  
 ・バックエンド（Ruby）  
 ・インフラ（Heroku）  
 ・テキストエディタ（Visual Studio Code）  

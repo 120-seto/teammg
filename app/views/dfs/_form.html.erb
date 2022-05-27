@@ -1,0 +1,17 @@
+<%= form_with(model: @df, local: true) do |f| %> 
+  <div class="field">
+    <%= f.label :df_title, "守備練習の名前" %><br />
+    <%= f.text_field :df_title, id:"df_title" %>
+  </div>
+  <div class="field">
+    <%= f.label :df_text, "守備練習の説明" %><br />
+    <%= f.text_area :df_text, class: :form__text, id:"df_catch_copy" %>
+  </div>
+  <div class="field">
+    <%= f.label :image, "守備練習の画像" %><br />
+    <%= f.file_field :image, id:"df_image" %>
+  </div>
+  <div class="actions">
+    <%= f.submit "投稿する", class: :form__btn  %>
+  </div>
+<% end %>

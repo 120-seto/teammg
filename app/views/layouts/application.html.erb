@@ -8,6 +8,21 @@
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(function() {
+    $(".menu li").hover(
+      function() {
+        //クラス名「open」を付与する
+        $(this).children(".menuSub").addClass("open");
+        //hoverが外れた場合
+      }, function() {
+        //クラス名「open」を取り除く
+        $(this).children(".menuSub").removeClass("open");
+      }
+    );
+  });
+</script>
   </head>
   <body>
     <%= yield %>
