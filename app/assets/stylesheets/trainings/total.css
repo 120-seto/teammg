@@ -1,0 +1,4 @@
+.total-new {
+  height: 90vh;
+  background-image: repeating-conic-gradient(white,black 15%);
+}

@@ -46,3 +46,38 @@
   text-decoration: none;
   font-size: 20px;
 }
+
+/* 全体練習 */
+
+.total-new {
+  height: 90vh;
+  background-image: repeating-conic-gradient(lightblue,black 15%);
+}
+
+/* 攻撃練習 */
+
+.fw-new {
+  height: 90vh;
+  background-image: repeating-conic-gradient(lightyellow ,black 15%);
+}
+
+/* 守備練習 */
+
+.df-new {
+  height: 90vh;
+  background-image: repeating-conic-gradient(darkseagreen,black 15%);
+}
+
+/* GK練習 */
+
+.gk-new {
+  height: 90vh;
+  background-image: repeating-conic-gradient(lavender,black 15%);
+}
+
+/* 練習リスト */
+
+.list-new {
+  height: 90vh;
+  background-image: repeating-conic-gradient(lightpink,black 15%);
+}
