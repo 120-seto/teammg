@@ -1,5 +1,5 @@
 <%= render "shared/header" %>
- <div class="df-new"><%= link_to "守備練習投稿", new_df_path, class: "df" %></div>
+ <div class="df-new"><%= link_to "守備練習投稿", new_df_path, class: "df" %>
   <div class="contents row">
     <% @dfs.each do |df| %>
         <p><%= df.text %></p>
@@ -8,6 +8,7 @@
         </span>
     <% end %>
          <%= render "shared/trs" %>
+    </div>
   </div>
   <%#= image_tag df.image.variant(resize: '500x500'), class: 'df-image' if df.image.attached? %>
  </div>

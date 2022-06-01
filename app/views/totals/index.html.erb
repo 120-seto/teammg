@@ -1,5 +1,5 @@
 <%= render "shared/header" %>
- <div class="total-new"><%= link_to "全体練習投稿", new_total_path, class: "total" %></div>
+ <div class="total-new"><%= link_to "全体練習投稿", new_total_path, class: "total" %>
   <div class="contents row">
     <% @totals.each do |total| %>
         <p><%= total.text %></p>
@@ -8,6 +8,7 @@
         </span>
     <% end %>
      <%= render "shared/trs" %>
+   </div>
   </div>
   <%#= image_tag total.image.variant(resize: '500x500'), class: 'total-image' if total.image.attached? %>
  </div>
