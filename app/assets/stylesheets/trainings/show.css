@@ -52,10 +52,10 @@ background-image: radial-gradient(#f3f0ea 0% 40%, #4a4b4e 60% 100%);
   height: 90vh;
   background:
   conic-gradient(
-      #ff0000 0deg,
-      #0000ff 90deg,
-      #00ff00 180deg,
-      #ffffff 270deg
+      #e2b1b1 0deg,
+      #9090d1 90deg,
+      #b8f4b8 180deg,
+      #dc9595 270deg
   ) 50% 50% / 50px 50px,
   #fff;
 }
