@@ -1,7 +1,6 @@
 .tr-show {
   height: 90vh;
-  background-image: repeating-conic-gradient(white,black 15%);
-
+background-image: radial-gradient(#f3f0ea 0% 40%, #4a4b4e 60% 100%);
 }
 
 .menu {
@@ -51,33 +50,51 @@
 
 .total-new {
   height: 90vh;
-  background-image: repeating-conic-gradient(lightblue,black 15%);
+  background:
+  conic-gradient(
+      #ff0000 0deg,
+      #0000ff 90deg,
+      #00ff00 180deg,
+      #ffffff 270deg
+  ) 50% 50% / 50px 50px,
+  #fff;
 }
 
 /* 攻撃練習 */
 
 .fw-new {
   height: 90vh;
-  background-image: repeating-conic-gradient(lightyellow ,black 15%);
+  background-image: repeating-linear-gradient(60deg,
+  #ff0000 10%,
+  #00ff00 25%,
+  #0000ff 50%);
 }
 
 /* 守備練習 */
 
 .df-new {
   height: 90vh;
-  background-image: repeating-conic-gradient(darkseagreen,black 15%);
+background: repeating-conic-gradient(
+    from 3deg at 25% 25%,
+    hsla(250, 59%, 28%, 0.207) 0deg 15deg,
+    hsla(20, 77%, 38%, 0.401) 10deg 30deg);
 }
 
 /* GK練習 */
 
 .gk-new {
   height: 90vh;
-  background-image: repeating-conic-gradient(lavender,black 15%);
+  background:
+  radial-gradient(circle closest-side, #ff0000 4px, transparent 5px) calc(50% - 25px) calc(50% - 25px) / 50px 50px,
+  radial-gradient(circle closest-side, #0000ff 4px, transparent 5px) 50% 50% / 50px 50px,
+  #fff;
 }
 
 /* 練習リスト */
 
 .list-new {
   height: 90vh;
-  background-image: repeating-conic-gradient(lightpink,black 15%);
+  background: -moz-linear-gradient(top, #FFC778, transparent);
+  background: -webkit-linear-gradient(top, #FFC778, transparent);
+  background: linear-gradient(to bottom, #FFC778, transparent);
 }
