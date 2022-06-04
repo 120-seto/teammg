@@ -19,7 +19,18 @@
  </div>
      <div class="skd-image"><%= link_to "スケジュール", "#", class: "skd" %></div>
      <div class="intro-image"><%= link_to "チーム紹介", "#", class: "intro" %></div>
-     <div class="set-image"><%= link_to "設定", "#", class: "set" %></div>
+  <div class="ot-image">
+   <ul class="menu">
+    <li>
+    <%= link_to "設定", others_path(@others), method: :get, id:"ot-menus",class: "ot" %>
+      <ul class="menuSub">
+        <li><a href="/users/sign_up">新規登録</a></li>
+        <li><a href="/users/sign_in">ログイン</a></li>
+        <li><a href="/users/sign_out">ログアウト</a></li>
+      </ul>
+    </li>
+  </ul>
+ </div>
   </div>
      <footer>
     </footer>
