@@ -1,0 +1,43 @@
+.ot-show {
+  height: 90vh;
+background-image: radial-gradient(#f3f0ea 0% 40%, #4a4b4e 60% 100%);
+}
+
+.menu {
+  font-weight: 800;
+  color: yellow;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.new{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.in{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.out{
+  font-weight: 800;
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* 練習リスト */
+
+.list-new {
+  height: 90vh;
+  background: -moz-linear-gradient(top, #FFC778, transparent);
+  background: -webkit-linear-gradient(top, #FFC778, transparent);
+  background: linear-gradient(to bottom, #FFC778, transparent);
+}
