@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   resources :dfs
   resources :gks
   resources :lists
+  resources :others
 end
