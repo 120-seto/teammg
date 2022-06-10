@@ -100,7 +100,7 @@
   font-size: 20px;
 }
 
-.set-image {
+.ot-image {
   background-image: url('pink.png');
   background-size: 180px;
   width: 180px;
@@ -108,12 +108,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
-.set {
+.ot {
   color: green;
   text-decoration: none;
-  user-select: none;
   font-weight: 800;
   font-size: 20px;
 }
@@ -140,6 +140,7 @@
 
 .menu li {
   position: relative;
+  width: 120px;
   margin-left: 1px;
   padding: 5px;
   background: #444444;
@@ -169,4 +170,6 @@
 
 .menuSub li a:hover {
   background: #FFCA7B;
+  color: red;
+
 }
