@@ -1,5 +1,8 @@
 <%= render "shared/header" %>
- <div class="df-new"><%= link_to "守備練習投稿", new_df_path, class: "df" %>
+   <div class="df-new">
+  <% if user_signed_in? %>
+   <%= link_to "守備練習投稿", new_df_path, class: "df" %>
+  <% end %>
   <div class="contents row">
     <% @dfs.each do |df| %>
         <p><%= df.text %></p>

@@ -1,5 +1,8 @@
 <%= render "shared/header" %>
- <div class="fw-new"><%= link_to "攻撃練習投稿", new_fw_path, class: "fw" %>
+   <div class="fw-new">
+  <% if user_signed_in? %>
+   <%= link_to "攻撃練習投稿", new_fw_path, class: "fw" %>
+  <% end %>
   <div class="contents row">
     <% @fws.each do |fw| %>
         <p><%= fw.text %></p>

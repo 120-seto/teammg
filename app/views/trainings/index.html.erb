@@ -26,7 +26,9 @@
       <ul class="menuSub">
         <li><a href="/users/sign_up">新規登録</a></li>
         <li><a href="/users/sign_in">ログイン</a></li>
-        <li><a href="/users/sign_out">ログアウト</a></li>
+      <% if user_signed_in? %>
+          <li><a href="/users/sign_out">ログアウト</a></li>
+      <% end %>
       </ul>
     </li>
   </ul>
