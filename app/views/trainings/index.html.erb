@@ -27,7 +27,7 @@
         <li><a href="/users/sign_up">新規登録</a></li>
         <li><a href="/users/sign_in">ログイン</a></li>
       <% if user_signed_in? %>
-          <li><a href="/users/sign_out">ログアウト</a></li>
+         <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "logout" %></li>
       <% end %>
       </ul>
     </li>

@@ -14,6 +14,16 @@ class TrainingsController < ApplicationController
   def show
   end
 
+  def destroy
+    if @trainings.user_id == current_user.id
+      @trainings.destroy
+      redirect_to root_path
+    else
+      redirect_to root_path
+    end
+  end
+
+
   private
 
   def training_params
