@@ -1,0 +1,8 @@
+<div class="card">
+  <%= link_to image_tag(total.image, class: :card__img ),total_path(total.id), method: :get %>
+  <div class="card__body">
+    <%= link_to "#{total.title}", total_path(total.id), method: :get, class: :card__title %>
+    <%= link_to "#{total.date}", total_path(total.id), method: :get, class: :card__date %>
+    <%= link_to "by #{total.user.name}", user_path(total.user), class: :card__user %>
+  </div>
+</div>

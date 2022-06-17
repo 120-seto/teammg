@@ -69,7 +69,6 @@ ActiveRecord::Schema.define(version: 2022_06_01_142403) do
     t.text "new"
     t.text "login"
     t.text "logout"
-    t.text "del"
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -85,15 +84,16 @@ ActiveRecord::Schema.define(version: 2022_06_01_142403) do
   end
 
   create_table "trainings", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.text "all"
+    t.text "total"
     t.text "fw"
-    t.text "mf"
     t.text "df"
     t.text "gk"
     t.text "list"
+    t.bigint "total_id"
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["total_id"], name: "index_trainings_on_total_id"
     t.index ["user_id"], name: "index_trainings_on_user_id"
   end
 

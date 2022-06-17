@@ -7,6 +7,10 @@
     <%= f.label :total_text, "全体練習の説明" %><br />
     <%= f.text_area :total_text, class: :form__text, id:"total_catch_copy" %>
   </div>
+    <div class="field">
+    <%= f.label :total_date, "全体練習の日時" %><br />
+    <%= f.text_area :total_date, class: :form__text, id:"total_date" %>
+  </div>
   <div class="field">
     <%= f.label :image, "全体練習の画像" %><br />
     <%= f.file_field :image, id:"total_image" %>

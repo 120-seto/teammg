@@ -8,6 +8,7 @@ class TotalsController < ApplicationController
   end
 
   def create
+    @total = Total.find(params[:id])
     @total = Total.new(total_params)
     if @total.save
       redirect_to root_path
@@ -27,6 +28,6 @@ class TotalsController < ApplicationController
   private
 
   def total_params
-    params.require(:total).permit(:total_title, :total_text, :total_date, :image).merge(user_id: current_user.id)
+    params.require(:total).permit(:total_title, :total_text, :image).merge(user_id: current_user.id)
   end
 end
